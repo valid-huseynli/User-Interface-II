@@ -1,1 +1,98 @@
-/* Add CSS styling here */
+  h1{
+      color:black;
+  }
+  h2{
+    color:black;
+  }
+  p{
+      color:black;
+      font-family:'Open Sans' sans-serif;
+      font-size: medium;
+  }
+  .nav{
+    color:white;
+    font-size: 13px;
+    background-color: rgb(175, 157, 157);
+    font-family:'Open Sans' sans-serif;
+    text-decoration: none;
+    padding:10px;
+} 
+.Home:active{
+    background-color: hotpink;
+    box-shadow: 0 2px #888888;
+    transform: translate(3px);
+}
+
+
+.about{
+    color:#888888;
+    font-size: 13px;
+    font-family:'Open Sans' sans-serif;
+    padding:15px 0px  0px 15px;
+    display: flex;
+    padding: 10px;
+}
+.about_text{
+    padding: 10px;
+}
+.about_img img{
+    height: 300px;
+    width: 300px;
+} 
+.myprojects:active{
+    background-color: green;
+    box-shadow: 0 2px yellow;
+    transform: translate(3px);
+}
+
+.pimg{
+    width: 0 auto;
+    height: 115px;
+    padding: 2px;
+}
+.pimg1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.button1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.pimg2{
+    display: flex;
+    justify-content:space-evenly;
+}
+.button2{
+    display: flex;
+    justify-content:space-evenly;
+}
+.Projectz:active{
+    background-color: green;
+    box-shadow: 0 5px yellow;
+    transform: translate(3px);
+}
+
+
+.contactme{
+    text-align: center;
+    background-color: rgb(175, 157, 157);
+    font-family:'Open Sans' sans-serif;
+    text-decoration: none;
+    padding:10px;
+} 
+.contactme p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.insta{
+    width: 25px;
+    height: 25px;
+}
+.linkedin{
+    width: 25px;
+    height: 25px;
+}
+.github{
+    width: 25px;
+    height: 25px;
+}
